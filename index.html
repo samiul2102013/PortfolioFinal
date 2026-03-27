@@ -196,9 +196,7 @@
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
+
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -255,15 +253,30 @@
             <li class="service-item">
 
               <div class="service-icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend</h4>
+
+                <p class="service-item-text">
+                  Building complete backend systems using Django, crafting RESTful APIs, and ensuring robust database architectures.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
                 <ion-icon name="desktop-outline"></ion-icon>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Full-Stack Web Apps</h4>
+                <h4 class="h4 service-item-title">Frontend</h4>
 
                 <p class="service-item-text">
-                  Building complete applications using Django + React, including dashboards, 
-                  real-time features, and modern UI/UX.
+                  Developing responsive and interactive user interfaces using modern frameworks like React and Next.js.
                 </p>
               </div>
 
@@ -289,32 +302,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <ion-icon name="pulse-outline"></ion-icon>
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Real-Time Systems</h4>
-
-                <p class="service-item-text">
-                  Developing live chat, notifications, video upload systems, and multiplayer APIs using 
-                  Django Channels and WebSockets.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
                 <ion-icon name="hardware-chip-outline"></ion-icon>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI / Automation</h4>
+                <h4 class="h4 service-item-title">MCP Server</h4>
 
                 <p class="service-item-text">
-                  Implementing intelligent features, automation tools, and ML-powered workflows to 
-                  improve application usability and performance.
+                  Building and integrating Model Context Protocol (MCP) servers to seamlessly connect AI applications with external tools.
                 </p>
               </div>
 
@@ -325,144 +320,7 @@
         </section>
 
 
-        <!--
-          - testimonials
-        -->
 
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Feroz Miah</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Samiul to corom kaj kore. Ami or sathe first year the or sathe thaki. O ekta kajer pula.Samiul vai rocks ❤️
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sokina Seri</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Samiul er sathe recently besh kichu din jabot kaj korchi. O khub bhalo kaj kore. Ar or Enerty er kotha ar ki bolbo... Uffff 🔥.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
 
 
         <!--
@@ -477,37 +335,13 @@
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                <img src="./assets/Client/Gulshan North Club.png" alt="Gulshan North Club logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
+                <img src="./assets/Client/Hsblco llc.webp" alt="Hsblco llc logo">
               </a>
             </li>
 
@@ -647,57 +481,37 @@
             <ul class="skills-list">
               <li class="skills-item timeline-item">
                 <div class="title-wrapper">
-                  <h5 class="h5">Frontend Development</h5>
-                  <data value="80">80%</data>
+                  <h5 class="h5">Frontend</h5>
                 </div>
-                <p>Experience working with HTML, CSS, JavaScript, and modern frontend practices.</p>
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%;"></div>
-                </div>
+                <p>Basic understanding in HTML, CSS, JavaScript, and experience working with Next.js and modern frontend practices.</p>
               </li>
 
               <li class="skills-item timeline-item">
                 <div class="title-wrapper">
-                  <h5 class="h5">Full-Stack Development</h5>
-                  <data value="70">70%</data>
+                  <h5 class="h5">Backend</h5>
                 </div>
-                <p>Knowledge of building complete web applications using Django, APIs, and frontend technologies.</p>
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%;"></div>
-                </div>
+                <p>Knowledge of building reliable backend systems and web applications using Django.</p>
               </li>
 
               <li class="skills-item timeline-item">
                 <div class="title-wrapper">
-                  <h5 class="h5">API Development</h5>
-                  <data value="90">90%</data>
-                </div>
-                <p>Able to design and integrate REST APIs for web applications.</p>
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%;"></div>
-                </div>
-              </li>
-
-              <li class="skills-item timeline-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Blockchain Development</h5>
-                  <data value="50">50%</data>
+                  <h5 class="h5">Blockchain</h5>
                 </div>
                 <p>Familiar with Solidity, smart contracts, Ganache, Brownie, and basic Web3 integration.</p>
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 50%;"></div>
-                </div>
               </li>
 
               <li class="skills-item timeline-item">
                 <div class="title-wrapper">
-                  <h5 class="h5">AI Automation</h5>
-                  <data value="90">90%</data>
+                  <h5 class="h5">MCP Server</h5>
                 </div>
-                <p>Learning to build small automation tools using AI models and Python.</p>
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%;"></div>
+                <p>Building Model Context Protocol servers for AI tool integrations.</p>
+              </li>
+
+              <li class="skills-item timeline-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">API Development & Integration</h5>
                 </div>
+                <p>Able to design, build, and integrate RESTful APIs for complex web applications.</p>
               </li>
             </ul>
           </div>
@@ -765,15 +579,11 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Frontend Development</button>
+              <button data-filter-btn>Backend</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Full-Stack Development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>API Development</button>
+              <button data-filter-btn>Frontend</button>
             </li>
 
             <li class="filter-item">
@@ -781,7 +591,7 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>AI Automation</button>
+              <button data-filter-btn>MCP Server</button>
             </li>
 
           </ul>
@@ -805,19 +615,19 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Frontend Development</button>
+                <button data-select-item>Backend</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Full-Stack Development</button>
+                <button data-select-item>Frontend</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>API Development</button>
+                <button data-select-item>Blockchain Development</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>AI Automation</button>
+                <button data-select-item>MCP Server</button>
               </li>
 
             </ul>
@@ -826,164 +636,146 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="full-stack development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="backend">
+              <a href="https://github.com/sifat3105/Gulshal-Northclub-CMS.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/Portfolio/Backend/Gulshan North Club pic.png" alt="Gulshan NorthClub CMS" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Gulshan NorthClub CMS</h3>
 
-                <p class="project-category">Full-Stack Development</p>
+                <p class="project-category">Backend</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="api development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="frontend">
+              <a href="https://github.com/shasan11-isOnTheWay/Chatting-DRF-Next.js-.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/Portfolio/Frontend/Chat app Frontend pic.png" alt="Chat Application Frontend" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Chat Application</h3>
 
-                <p class="project-category">API Development</p>
+                <p class="project-category">Frontend</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="frontend development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="frontend">
+              <a href="https://github.com/samiul2102013/Supply-Chain-Blockchain.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="logo-github"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/Portfolio/Frontend/Supply Chain Front end pic.png" alt="Supply Chain Frontend" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Supply Chain Frontend</h3>
 
-                <p class="project-category">Frontend Development</p>
+                <p class="project-category">Frontend</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="backend">
+              <a href="https://github.com/samiul2102013/hsblco_backend.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Crect width='100%25' height='100%25' fill='%232b2b2c'/%3E%3Cg transform='translate(360, 260) scale(3.5)'%3E%3Cpath fill='%23d6d6d6' d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/%3E%3C/g%3E%3C/svg%3E" alt="GitHub Repository" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hsblco Backend</h3>
+
+                <p class="project-category">Backend</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="backend">
+              <a href="https://github.com/shasan11-isOnTheWay/krio_backend-.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Crect width='100%25' height='100%25' fill='%232b2b2c'/%3E%3Cg transform='translate(360, 260) scale(3.5)'%3E%3Cpath fill='%23d6d6d6' d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/%3E%3C/g%3E%3C/svg%3E" alt="GitHub Repository" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Krio Backend</h3>
+
+                <p class="project-category">Backend</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="backend">
+              <a href="https://github.com/shasan11-isOnTheWay/krio_backend-.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Crect width='100%25' height='100%25' fill='%232b2b2c'/%3E%3Cg transform='translate(360, 260) scale(3.5)'%3E%3Cpath fill='%23d6d6d6' d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/%3E%3C/g%3E%3C/svg%3E" alt="GitHub Repository" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Chatting DRF</h3>
+
+                <p class="project-category">Backend</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="blockchain development">
-              <a href="#">
+              <a href="https://github.com/samiul2102013/Supply-Chain-Blockchain.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/Portfolio/Frontend/Supply Chain Front end pic.png" alt="Supply Chain Blockchain" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Supply Chain Blockchain</h3>
 
                 <p class="project-category">Blockchain Development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="frontend development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="mcp server">
+              <a href="https://github.com/samiul2102013/Google-Calendar-MCP-Server.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/Portfolio/MCP Server/MCP Server(Google Calendar in cursor).png" alt="Google Calendar MCP Server" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">Google Calendar MCP Server</h3>
 
-                <p class="project-category">Frontend Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="ai automation">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">AI Automation</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="full-stack development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Full-Stack Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="api development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">API Development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="blockchain development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Blockchain Development</p>
+                <p class="project-category">MCP Server</p>
 
               </a>
             </li>
@@ -998,193 +790,7 @@
 
 
 
-      <!--
-        - #BLOG
-      -->
 
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
 
 
 
@@ -1203,7 +809,7 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              src="https://maps.google.com/maps?q=Nabinagar,%20Savar,%20Dhaka,%20Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>

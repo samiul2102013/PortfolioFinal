@@ -1,0 +1,1 @@
+Google Calendar MCP Server with Cursor: https://github.com/samiul2102013/Google-Calendar-MCP-Server.git
